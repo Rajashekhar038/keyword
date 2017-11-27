@@ -1,0 +1,122 @@
+2017-11-24 15:26:30,085Set the path of Driver executable
+2017-11-24 15:26:30,090Suite Execution Started
+2017-11-24 15:26:32,369Script count:3
+2017-11-24 15:26:32,562Script:ValidLogin Execute:yes
+2017-11-24 15:26:32,562Open Chrome Browser
+2017-11-24 15:26:38,741Set ITO:10 Sec
+2017-11-24 15:26:38,782Enter the URL:http://localhost:4040/login.do
+2017-11-24 15:26:44,534Executing Script:ValidLogin
+2017-11-24 15:26:44,536Star-executeSteps
+2017-11-24 15:26:44,872Step Count:1
+2017-11-24 15:26:44,873-------Start Step:1----------------
+2017-11-24 15:26:45,125Desc:Enter invalid in UN
+2017-11-24 15:26:45,509keyword1:enter
+2017-11-24 15:26:45,705keyword2://input[@id='username']
+2017-11-24 15:26:45,888keyword3:admin
+2017-11-24 15:26:45,934Start-executeKeyword
+2017-11-24 15:26:46,198End-executeKeyword
+2017-11-24 15:26:46,210SamePage,so not taking screen shot
+2017-11-24 15:26:46,211-------End Step:1----------------
+2017-11-24 15:26:46,211End of Script:ValidLogin
+2017-11-24 15:26:46,211Script is PASSED:ValidLogin
+2017-11-24 15:26:47,464Quit the Browser
+2017-11-24 15:26:47,642Script:InvalidLogin Execute:yes
+2017-11-24 15:26:47,642Open Chrome Browser
+2017-11-24 15:26:50,293Set ITO:10 Sec
+2017-11-24 15:26:50,303Enter the URL:http://localhost:4040/login.do
+2017-11-24 15:26:53,377Executing Script:InvalidLogin
+2017-11-24 15:26:53,378Star-executeSteps
+2017-11-24 15:26:53,604Step Count:1
+2017-11-24 15:26:53,604-------Start Step:1----------------
+2017-11-24 15:26:53,761Desc:Enter invalid in UN
+2017-11-24 15:26:53,873keyword1:enter
+2017-11-24 15:26:53,990keyword2://input[@id='un']
+2017-11-24 15:26:54,124keyword3:abcd
+2017-11-24 15:26:54,240Start-executeKeyword
+2017-11-24 15:27:04,319Script is FAILED:InvalidLogin
+2017-11-24 15:27:04,330Taking ScreenShot:./photo/ForFailure/InvalidLogin_24_Nov_17 03_27_04.png
+2017-11-24 15:27:05,748Quit the Browser
+2017-11-24 15:27:05,888Script:ValidCustomer Execute:no
+2017-11-24 15:27:05,889NOT Executing Script:ValidCustomer
+2017-11-24 15:27:05,889----------------------------------------------
+2017-11-24 15:27:05,890Total PASS:1
+2017-11-24 15:27:05,890Total FAIL:1
+2017-11-24 15:27:05,890Total Scripts Executed:2
+2017-11-24 15:27:05,891----------------------------------------------
+2017-11-24 15:27:06,769Suite Execution Completed
+2017-11-24 19:49:37,349Set the path of Driver executable
+2017-11-24 19:49:37,406Suite Execution Started
+2017-11-24 19:49:46,322Script count:4
+2017-11-24 19:49:46,534Script:ValidLogin Execute:no
+2017-11-24 19:49:46,534NOT Executing Script:ValidLogin
+2017-11-24 19:49:46,724Script:InvalidLogin Execute:no
+2017-11-24 19:49:46,725NOT Executing Script:InvalidLogin
+2017-11-24 19:49:46,869Script:ValidCustomer Execute:no
+2017-11-24 19:49:46,869NOT Executing Script:ValidCustomer
+2017-11-24 19:49:46,986Script:VerifyColor Execute:yes
+2017-11-24 19:49:46,987Open Chrome Browser
+2017-11-24 19:50:19,627Set ITO:10 Sec
+2017-11-24 19:50:19,677Enter the URL:http://localhost:4040/login.do
+2017-11-24 19:50:50,660Executing Script:VerifyColor
+2017-11-24 19:50:50,662Star-executeSteps
+2017-11-24 19:50:51,825Step Count:3
+2017-11-24 19:50:51,826-------Start Step:1----------------
+2017-11-24 19:50:52,079Desc:Click Loin
+2017-11-24 19:50:52,259keyword1:click
+2017-11-24 19:50:52,464keyword2:.//*[@id='loginButton']
+2017-11-24 19:50:52,592keyword3:
+2017-11-24 19:50:52,641Start-executeKeyword
+2017-11-24 19:50:53,531End-executeKeyword
+2017-11-24 19:50:53,554SamePage,so not taking screen shot
+2017-11-24 19:50:53,554-------End Step:1----------------
+2017-11-24 19:50:53,554-------Start Step:2----------------
+2017-11-24 19:50:53,755Desc:verify error msg is displayed
+2017-11-24 19:50:53,986keyword1:verifyElementPresent
+2017-11-24 19:50:54,131keyword2://span[contains(text(),'invalid')
+2017-11-24 19:50:54,238keyword3:
+2017-11-24 19:50:54,258Start-executeKeyword
+2017-11-24 19:50:54,258No Timeout
+2017-11-24 19:50:54,504FAIL:Element is Not Present
+2017-11-24 19:50:54,505Script is FAILED:VerifyColor
+2017-11-24 19:50:54,581Taking ScreenShot:./photo/ForFailure/VerifyColor_24_Nov_17 07_50_54.png
+2017-11-24 19:51:00,997Quit the Browser
+2017-11-24 19:51:00,997----------------------------------------------
+2017-11-24 19:51:00,997Total PASS:0
+2017-11-24 19:51:00,997Total FAIL:1
+2017-11-24 19:51:00,998Total Scripts Executed:1
+2017-11-24 19:51:00,998----------------------------------------------
+2017-11-24 19:51:04,195Suite Execution Completed
+2017-11-27 15:30:42,563Set the path of Driver executable
+2017-11-27 15:30:42,713Suite Execution Started
+2017-11-27 15:30:50,541Script count:5
+2017-11-27 15:30:50,776Script:ValidLogin Execute:no
+2017-11-27 15:30:50,776NOT Executing Script:ValidLogin
+2017-11-27 15:30:50,947Script:InvalidLogin Execute:no
+2017-11-27 15:30:50,948NOT Executing Script:InvalidLogin
+2017-11-27 15:30:51,067Script:ValidCustomer Execute:no
+2017-11-27 15:30:51,067NOT Executing Script:ValidCustomer
+2017-11-27 15:30:51,198Script:VerifyColor Execute:no
+2017-11-27 15:30:51,199NOT Executing Script:VerifyColor
+2017-11-27 15:30:51,324Script:searchListBox Execute:yes
+2017-11-27 15:30:51,325Open Chrome Browser
+2017-11-27 15:31:10,902Set ITO:10 Sec
+2017-11-27 15:31:10,922Enter the URL:file:///D:/LB.html
+2017-11-27 15:31:11,301Executing Script:searchListBox
+2017-11-27 15:31:11,317Star-executeSteps
+2017-11-27 15:31:11,939Step Count:3
+2017-11-27 15:31:11,940-------Start Step:1----------------
+2017-11-27 15:31:12,126Desc:Enter Option
+2017-11-27 15:31:12,264keyword1:searchListBox
+2017-11-27 15:31:12,397keyword2://select[@id='s1']
+2017-11-27 15:31:12,521keyword3:Idly
+2017-11-27 15:31:12,572Start-executeKeyword
+2017-11-27 15:31:12,767Searching Idlyin ListBox //select[@id='s1']
+2017-11-27 15:31:22,920Script is FAILED:searchListBox
+2017-11-27 15:31:22,946Taking ScreenShot:./photo/ForFailure/searchListBox_27_Nov_17 03_31_22.png
+2017-11-27 15:31:25,605Quit the Browser
+2017-11-27 15:31:25,606----------------------------------------------
+2017-11-27 15:31:25,606Total PASS:0
+2017-11-27 15:31:25,606Total FAIL:1
+2017-11-27 15:31:25,606Total Scripts Executed:1
+2017-11-27 15:31:25,606----------------------------------------------
+2017-11-27 15:31:26,939Suite Execution Completed
